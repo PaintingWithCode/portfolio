@@ -9,7 +9,7 @@
 	});
 </script>
 
-<div class="sm:col-span-2 sm:row-span-2 lg:aspect-square">
+<div class="mb-2 sm:col-span-2 sm:row-span-2 sm:mb-0 lg:aspect-square">
 	{#if isVisible}
 		<h1
 			in:fly={{ y: '-12px', delay: 600 }}
