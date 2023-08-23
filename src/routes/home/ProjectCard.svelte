@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ExternalLinkIcon from './ExternalLinkIcon.svelte';
+	import ExternalLinkArrow from './ExternalLinkArrow.svelte';
 	import { getProject } from '$lib/projects';
 	import { cn } from '$lib/utils';
 
@@ -17,12 +17,12 @@
 			{#if metadata.externalLink}
 				<a
 					href={metadata.externalLink}
+					title="View it live"
 					target="_blank"
-					class="-mb-0.5 flex
-				aspect-square w-6 items-center justify-center rounded-full
-				hover:bg-white/25"
+					class="-mb-0.5 flex aspect-square w-6 items-center justify-center
+				rounded-full hover:bg-white/25"
 				>
-					<ExternalLinkIcon />
+					<ExternalLinkArrow />
 				</a>
 			{/if}
 		</div>

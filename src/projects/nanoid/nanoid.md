@@ -1,5 +1,5 @@
 ---
-title: Nanoid
+title: Nano ID Generator
 externalLink: https://nanoid.paintingwithco.de
 ---
 
@@ -12,8 +12,6 @@ A simple [Nano ID](https://github.com/ai/nanoid) generator that generates multip
 - Prefix
 
 In addition, it also displays the collision probability for the given alphabet and length combination.
-
-View it live [here](https://nanoid.paintingwithco.de).
 
 ## Tech Stack
 
