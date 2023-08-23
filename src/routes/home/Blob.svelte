@@ -10,7 +10,6 @@
 	let pageY: number;
 
 	onMount(() => {
-		// To prevent layout shift on first paint
 		isSafari = navigator.userAgent.includes('Safari');
 		showBlob = true;
 	});

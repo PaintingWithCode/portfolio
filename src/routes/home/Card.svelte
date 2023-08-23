@@ -2,7 +2,9 @@
 	import { cn } from '$lib/utils';
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
+	import ProjectCard from './ProjectCard.svelte';
 
+	export let projectId = '';
 	export let title = '';
 	export let isWide = false;
 	export let delayFactor = 0;
@@ -13,7 +15,7 @@
 		isVisible = true;
 	});
 
-	const delay = 600 + delayFactor * 150;
+	const delay = 400 + delayFactor * 150;
 </script>
 
 <div
@@ -23,14 +25,20 @@
 >
 	{#if isVisible}
 		<div
-			class="group relative flex h-full justify-center overflow-hidden rounded-sm bg-montana"
+			class="group relative flex h-full justify-center overflow-hidden
+		rounded-sm bg-montana"
 			in:fly={{ y: '-12px', delay }}
 		>
-			<div
-				class="absolute left-4 right-4 top-4 flex flex-row items-center justify-between text-xs uppercase leading-none"
-			>
-				<span class="text-slate-100/80">{title}</span>
-			</div>
+			{#if projectId}
+				<ProjectCard {projectId} {isWide} />
+			{:else}
+				<div
+					class="absolute left-4 right-4 top-4 flex flex-row items-center
+				justify-between text-xs uppercase leading-none"
+				>
+					<span class="text-slate-100/80">{title}</span>
+				</div>
+			{/if}
 		</div>
 	{/if}
 </div>

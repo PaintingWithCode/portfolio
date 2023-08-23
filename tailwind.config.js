@@ -24,9 +24,9 @@ module.exports = {
 				'white-lilac': '#e6e5e7'
 			},
 			fontFamily: {
-				display: ['Roca Two', defaultTheme.fontFamily.serif]
+				serif: ['Roca Two', defaultTheme.fontFamily.serif]
 			}
 		}
 	},
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };
