@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-	body {
-		text-rendering: optimizeLegibility;
-	}
-
 	@font-face {
 		font-family: 'Roca Two';
 		font-style: normal;
@@ -16,13 +12,17 @@
 			url('/fonts/rocatwo/rocatwo-light.woff2') format('woff2'),
 			url('/fonts/rocatwo/rocatwo-light.woff') format('woff');
 	}
+}
 
-	figcaption {
-		@apply w-full text-center text-base text-neutral-50/50;
-		margin-top: 0.5rem !important;
-	}
+body {
+	text-rendering: optimizeLegibility;
+}
 
-	.gif {
-		@apply rounded;
-	}
+figcaption {
+	@apply w-full text-center text-base text-neutral-50/50;
+	margin-top: 0.5rem !important;
+}
+
+.gif {
+	border-radius: 4px !important;
 }

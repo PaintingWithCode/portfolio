@@ -1,6 +1,6 @@
 <script>
 	import { afterNavigate } from '$app/navigation';
-	import '../app.postcss';
+	import '../app.css';
 
 	afterNavigate(() => {
 		window.scrollTo(0, 0);
