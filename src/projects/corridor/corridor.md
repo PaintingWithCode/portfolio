@@ -1,6 +1,6 @@
 ---
 title: Corridor
-accentColor: '#8b55ff'
+accentColor: '#d6d6d6'
 ---
 
 <img src='/images/corridor.webp' alt='Corridor' class="w-full object-cover" />

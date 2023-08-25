@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import { mdsvex } from 'mdsvex';
 
@@ -11,6 +11,12 @@ const mdsvexOptions = {
 const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
+	onwarn(warning, handler) {
+		if (warning.filename.includes('@lottiefiles')) {
+			return;
+		}
+		handler(warning);
+	},
 	kit: {
 		adapter: adapter()
 	}

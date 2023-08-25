@@ -26,8 +26,19 @@
 			hover={true}
 			controls={false}
 			renderer="svg"
-			class="p-8"
 			background="transparent"
+			style="height: 100%;"
 		/>
 	{/if}
 </a>
+
+<style>
+	:global(.lottie-player) {
+		height: 100%;
+	}
+
+	:global(.lottie-player) :global(.animation) {
+		height: 100%;
+		padding: 1rem;
+	}
+</style>

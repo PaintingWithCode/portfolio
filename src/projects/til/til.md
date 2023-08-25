@@ -1,18 +1,18 @@
 ---
 title: Today I Learned
 externalLink: https://til.paintingwithco.de
-accentColor: '#e1c390'
+accentColor: '#C7AD7F'
 ---
 
 <img src='/images/til.webp' alt='Today I Learned' class="w-full object-cover" />
 
-A miniblog go catalogues the things I learn day-to-day in software development.
+A miniblog to catalogue the things I learn day-to-day in software development.
 
-The site is statically generated at buildtime with content sourced from markdown files with a database integration for tracking views and likes.
+The site is statically generated at buildtime, using content sourced from markdown files, and integrates with a database at runtime to track views and likes.
 
 ### Stack
 
-- **Framework**: Sveltekit w/ mdsvex
+- **Framework**: Sveltekit
 - **Styling**: Tailwind CSS
 - **ORM**: Drizzle
 - **Database**: Turso (libSQL)

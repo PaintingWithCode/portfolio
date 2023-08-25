@@ -12,9 +12,9 @@ A simple [Nano ID](https://github.com/ai/nanoid) generator that generates multip
 - Length
 - Prefix
 
-In addition, it also displays the collision probability for the given alphabet and length combination.
+It also includes a helpful tool to calculate the collision probability for the given alphabet and length combination.
 
-## Stack
+### Stack
 
 - **Framework**: Sveltekit
 - **Styling**: Tailwind CSS

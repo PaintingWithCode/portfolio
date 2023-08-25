@@ -1,12 +1,20 @@
 <script lang="ts">
-	export let accentColor: string;
+	import { onMount } from 'svelte';
+	import Device from 'svelte-device-info';
 
+	export let accentColor: string;
 	let binaryElement: HTMLDivElement;
 	let lastTransitionTime = 0;
 	const animationConfig: KeyframeAnimationOptions = {
 		duration: 250,
 		fill: 'forwards'
 	};
+
+	onMount(() => {
+		if (!Device.canHover) {
+			binaryElement.style.opacity = '0.15';
+		}
+	});
 
 	function getRandomString() {
 		const characters = '01';
@@ -35,7 +43,9 @@
 	}
 </script>
 
-<div class="binary" bind:this={binaryElement} style={`color: ${accentColor};`} />
+<div class="binary" bind:this={binaryElement} style={`color: ${accentColor};`}>
+	{getRandomString()}
+</div>
 
 <style lang="postcss">
 	.binary {
