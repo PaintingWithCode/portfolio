@@ -25,6 +25,9 @@ module.exports = {
 			},
 			fontFamily: {
 				serif: ['Roca Two', defaultTheme.fontFamily.serif]
+			},
+			transitionDuration: {
+				DEFAULT: '200ms'
 			}
 		}
 	},

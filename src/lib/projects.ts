@@ -5,6 +5,7 @@ type Project = {
 	metadata: {
 		title: string;
 		externalLink?: string;
+		accentColor: string;
 	};
 };
 

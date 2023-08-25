@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 
-	let blob: HTMLDivElement;
+	let blobElement: HTMLDivElement;
 	let showBlob = false;
 	let isSafari = false;
 	let hasMoved = false;
@@ -20,9 +20,9 @@
 	}
 
 	$: {
-		if (blob && pageX && pageY) {
+		if (blobElement && pageX && pageY) {
 			requestAnimationFrame(() => {
-				blob.animate(
+				blobElement.animate(
 					{
 						left: `${pageX}px`,
 						top: `${pageY}px`
@@ -34,8 +34,8 @@
 				// page if the mouse is not still during the animation. This has been the
 				// best hack I've found so far to get a consistent experience across browsers.
 				if (isSafari && !hasMoved) {
-					blob.style.left = `${pageX}px`;
-					blob.style.top = `${pageY}px`;
+					blobElement.style.left = `${pageX}px`;
+					blobElement.style.top = `${pageY}px`;
 					hasMoved = true;
 				}
 			});
@@ -48,7 +48,7 @@
 	<div
 		id="blob"
 		style="top: 50%; left: 50%;"
-		bind:this={blob}
+		bind:this={blobElement}
 		in:fade={{ delay: isSafari ? 200 : 50 }}
 	/>
 {/if}

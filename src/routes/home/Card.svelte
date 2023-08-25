@@ -33,11 +33,12 @@
 				<ProjectCard {projectId} {isWide} />
 			{:else}
 				<div
-					class="absolute left-4 right-4 top-4 flex flex-row items-center
+					class="absolute left-4 right-4 top-4 z-20 flex flex-row items-center
 				justify-between text-xs uppercase leading-none"
 				>
 					<span class="text-slate-100/80">{title}</span>
 				</div>
+				<slot />
 			{/if}
 		</div>
 	{/if}

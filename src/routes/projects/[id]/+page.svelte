@@ -19,7 +19,7 @@
 	{#if isVisible}
 		<article
 			in:fly={{ y: '24px' }}
-			class="prose lg:prose-xl prose-invert prose-headings:text-white-lilac prose-h1:mb-0 prose-img:mt-6 prose-strong:text-white-lilac/90 prose-p:text-white-lilac/80 prose-ul:text-white-lilac/80"
+			class="prose prose-invert lg:prose-xl prose-headings:text-white-lilac prose-h1:mb-0 prose-p:text-white-lilac/80 prose-strong:text-white-lilac/90 prose-ul:text-white-lilac/80 prose-img:mt-8"
 		>
 			<div
 				class="-mt-8 flex flex-col items-start space-x-0 space-y-6 lg:-ml-16 lg:flex-row lg:items-center lg:space-x-7 lg:space-y-0"

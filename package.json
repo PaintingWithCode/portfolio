@@ -35,5 +35,8 @@
 		"typescript": "^5.1.6",
 		"vite": "^4.4.9"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@lottiefiles/svelte-lottie-player": "^0.3.0"
+	}
 }
