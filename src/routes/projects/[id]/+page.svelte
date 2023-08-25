@@ -23,10 +23,10 @@
 		prose-headings:text-white-lilac prose-h1:mb-0 prose-h3:mb-2.5 prose-h3:mt-6
 		prose-p:mb-0 prose-p:text-white-lilac/80 prose-strong:text-white-lilac/90
 		prose-ul:m-0 prose-ul:text-white-lilac/80 prose-li:m-0
-		prose-li:marker:text-white-lilac/80 prose-img:mt-8"
+		prose-li:marker:text-white-lilac/80 prose-img:mt-6"
 		>
 			<div
-				class="-mt-8 flex flex-col items-start space-x-0 space-y-6 lg:-ml-16 lg:flex-row lg:items-center lg:space-x-7 lg:space-y-0"
+				class="mb-8 flex flex-col items-start space-x-0 space-y-6 lg:-ml-16 lg:flex-row lg:items-center lg:space-x-7 lg:space-y-0"
 			>
 				<BackLink />
 				<div class="flex w-full items-center justify-between">
@@ -42,3 +42,14 @@
 		</article>
 	{/if}
 </main>
+
+<style>
+	:global(caption) {
+		@apply w-full text-center text-base text-neutral-50/50;
+		margin-top: 0.5rem !important;
+	}
+
+	:global(.gif) {
+		@apply rounded;
+	}
+</style>
