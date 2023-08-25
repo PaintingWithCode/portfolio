@@ -18,12 +18,13 @@
 		font-light !leading-tight text-neutral-50/60 selection:bg-montana sm:p-8
 		sm:text-3xl md:basis-1/2 lg:text-4xl"
 		>
-			Hello there 👋🏽, I'm <span class="text-white-lilac">Aravind</span><br /> and I like
+			Hello there <span class="text-neutral-50/90">👋🏽</span>, I'm
+			<span class="text-white-lilac">Aravind</span><br /> and I like
 			<BlurbLink name="Painting With Code" url="https://github.com/PaintingWithCode" />
 			<br />
 			<br />
 			I enjoy building products with engaging interfaces and intuitive experiences.<br /><br />
-			Currently based in Toronto working as a
+			Currently based in Toronto <span class="text-neutral-50/90">🇨🇦</span> working as a
 			<span class="text-white-lilac">Senior Fullstack Developer</span>
 			for
 			<BlurbLink name="Mindsea" url="https://mindsea.com" variant="CYAN" />
