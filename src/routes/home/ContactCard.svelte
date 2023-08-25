@@ -14,6 +14,7 @@
 
 <a
 	href="mailto:hello@aravindmurali.com"
+	aria-label="Contact me via email at hello@aravindmurali.com"
 	class="z-40 flex h-full w-full items-center justify-center opacity-75 grayscale transition duration-500 group-hover:grayscale-0"
 >
 	{#if LottiePlayer}

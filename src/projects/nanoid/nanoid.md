@@ -6,7 +6,7 @@ accentColor: '#5bac88'
 
 <img src='/images/nanoid.webp' alt='Nanoid' class="w-full object-cover" />
 
-A simple [Nano ID](https://github.com/ai/nanoid) generator that generates multiple IDs with custom:
+A minimal [Nano ID](https://github.com/ai/nanoid) generator that generates multiple IDs with custom:
 
 - Alphabet
 - Length

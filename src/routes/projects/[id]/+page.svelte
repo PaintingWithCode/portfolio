@@ -20,10 +20,10 @@
 		<article
 			in:fly={{ y: '24px' }}
 			class="prose prose-invert lg:prose-xl
-		prose-headings:text-white-lilac prose-h1:mb-0 prose-h3:mb-2.5 prose-h3:mt-6
-		prose-p:mb-0 prose-p:text-white-lilac/80 prose-strong:text-white-lilac/90
-		prose-ul:m-0 prose-ul:text-white-lilac/80 prose-li:m-0
-		prose-li:marker:text-white-lilac/80 prose-img:mt-6"
+		selection:bg-montana prose-headings:text-white-lilac prose-h1:mb-0 prose-h3:mb-2.5
+		prose-h3:mt-6 prose-p:mb-0 prose-p:text-white-lilac/70
+		prose-strong:text-white-lilac/90 prose-ul:m-0 prose-ul:text-white-lilac/80
+		prose-li:m-0 prose-li:marker:text-white-lilac/60 prose-img:mt-6"
 		>
 			<div
 				class="mb-8 flex flex-col items-start space-x-0 space-y-4 lg:-ml-16 lg:flex-row lg:items-center lg:space-x-7 lg:space-y-0"

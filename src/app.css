@@ -19,7 +19,7 @@ body {
 }
 
 figcaption {
-	@apply w-full text-center text-base text-neutral-50/50;
+	@apply w-full text-center text-white-lilac opacity-70;
 	margin-top: 0.5rem !important;
 }
 
