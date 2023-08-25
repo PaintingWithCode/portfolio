@@ -3,7 +3,6 @@
 	import { type SvelteComponent, onMount } from 'svelte';
 
 	let LottiePlayer: typeof SvelteComponent;
-	let autoplay = false;
 
 	onMount(async () => {
 		if (browser) {

@@ -1,5 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
 	import Blob from './home/Blob.svelte';
 	import Blurb from './home/Blurb.svelte';
 	import CardContainer from './home/CardContainer.svelte';

@@ -5,10 +5,6 @@
 	export let accentColor: string;
 	let binaryElement: HTMLDivElement;
 	let lastTransitionTime = 0;
-	const animationConfig: KeyframeAnimationOptions = {
-		duration: 250,
-		fill: 'forwards'
-	};
 
 	onMount(() => {
 		if (!Device.canHover) {
@@ -28,7 +24,13 @@
 	}
 
 	export function handleMouseEnter() {
-		binaryElement.animate({ opacity: 0.15 }, animationConfig);
+		binaryElement.animate(
+			{ opacity: 0.15 },
+			{
+				duration: 250,
+				fill: 'forwards'
+			}
+		);
 	}
 
 	export function handleMouseMove() {
@@ -39,7 +41,13 @@
 	}
 
 	export function handleMouseLeave() {
-		binaryElement.animate({ opacity: 0 }, animationConfig);
+		binaryElement.animate(
+			{ opacity: 0 },
+			{
+				duration: 250,
+				fill: 'forwards'
+			}
+		);
 	}
 </script>
 
