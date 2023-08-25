@@ -42,14 +42,3 @@
 		</article>
 	{/if}
 </main>
-
-<style>
-	:global(caption) {
-		@apply w-full text-center text-base text-neutral-50/50;
-		margin-top: 0.5rem !important;
-	}
-
-	:global(.gif) {
-		@apply rounded;
-	}
-</style>

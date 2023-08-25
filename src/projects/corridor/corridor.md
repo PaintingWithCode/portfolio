@@ -5,7 +5,7 @@ accentColor: '#d6d6d6'
 
 <figure>
   <img src='/images/corridor.webp' alt='User-created "Angry Grape" monster' class="w-full object-cover" />
-  <caption>Gameplay against a "Flaming Skull" monster</caption>
+  <figcaption>Gameplay against a "Flaming Skull" monster</figcaption>
 </figure>
 
 A turn-based multiplayer browser game inspired by Munchkins and Dungeons & Dragons.
@@ -26,20 +26,20 @@ developed by a team of 5 students.
 
 <figure>
   <img src='/images/corridor-1.gif' alt='Login screen with CSS animated logo' class="w-full object-cover gif"/>
-  <caption>Login screen with CSS animated logo</caption>
+  <figcaption>Login screen with CSS animated logo</figcaption>
 </figure>
 
 <figure>
   <img src='/images/corridor-2.webp' alt='User-created "Sour Milk" monster' class="w-full object-cover"/>
-  <caption>User-created "Sour Milk" monster</caption>
+  <figcaption>User-created "Sour Milk" monster</figcaption>
 </figure>
 
 <figure>
   <img src='/images/corridor-3.webp' alt='User-created "Angry Grape" monster' class="w-full object-cover" />
-  <caption>User-created "Sword Of Thousand Truths" item</caption>
+  <figcaption>User-created "Sword Of Thousand Truths" item</figcaption>
 </figure>
 
 <figure>
   <img src='/images/corridor-4.webp' alt='User-created "Angry Grape" monster' class="w-full object-cover" />
-  <caption>User-created "Angry Grape" monster</caption>
+  <figcaption>User-created "Angry Grape" monster</figcaption>
 </figure>

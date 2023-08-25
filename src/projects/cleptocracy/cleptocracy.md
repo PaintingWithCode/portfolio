@@ -5,7 +5,7 @@ accentColor: '#C2842D'
 
 <figure>
   <img src='/images/cleptocracy.webp' alt="Clinton's stance on healthcare" class="w-full object-cover" />
-  <caption>Clinton's stance on healthcare</caption>
+  <figcaption>Clinton's stance on healthcare</figcaption>
 </figure>
 
 A website to help voters identify their ideal candidate in the 2016 Presidental Elections.
@@ -23,15 +23,15 @@ A solo project in terms of design and development, but with some gracious help f
 
 <figure>
   <img src='/images/cleptocracy-1.webp' alt="Trump's experience to date" class="w-full object-cover"/>
-  <caption>Trump's experience to date</caption>
+  <figcaption>Trump's experience to date</figcaption>
 </figure>
 
 <figure>
   <img src='/images/cleptocracy-3.webp' alt="Bernie's Source Of Funding" class="w-full object-cover" />
-  <caption>Bernie's Source Of Funding</caption>
+  <figcaption>Bernie's Source Of Funding</figcaption>
 </figure>
 
 <figure>
   <img src='/images/cleptocracy-2.webp' alt="Republican Candidates" class="w-full object-cover" />
-  <caption>Republican Candidates</caption>
+  <figcaption>Republican Candidates</figcaption>
 </figure>
