@@ -18,6 +18,15 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+.figure-media-container {
+	@apply mx-auto h-fit w-fit;
+	border-radius: 4px;
+}
+
+.figure-media-container img {
+	margin: 0 !important;
+}
+
 figcaption {
 	@apply w-full text-center text-white-lilac opacity-70;
 	margin-top: 0.5rem !important;
@@ -25,4 +34,12 @@ figcaption {
 
 .gif {
 	border-radius: 4px !important;
+}
+
+video {
+	margin: 0 !important;
+}
+
+source {
+	border-radius: 4px;
 }

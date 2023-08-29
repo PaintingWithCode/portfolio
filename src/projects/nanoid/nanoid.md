@@ -18,3 +18,10 @@ It also includes a helpful tool to calculate the collision probability for the g
 
 - **Framework**: Sveltekit
 - **Styling**: Tailwind CSS
+
+<figure>
+  <div class='figure-media-container' style='background-color: #5bac88'>
+    <img src='/images/nanoid-flipboard.png' alt="Flipboard text effect" class="w-full object-cover" style="padding: 6px; border-radius: 8px" />
+  </div>
+  <figcaption>Flipboard text effect</figcaption>
+</figure>
