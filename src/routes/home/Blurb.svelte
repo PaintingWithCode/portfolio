@@ -25,7 +25,7 @@
 			<br />
 			I enjoy building products with engaging interfaces and intuitive experiences.<br /><br />
 			Currently based in Toronto <span class="text-neutral-50/90">🇨🇦</span> working as a
-			<span class="text-white-lilac">Senior Fullstack Developer</span>
+			<span class="text-white-lilac">Senior Full-stack Developer</span>
 			for
 			<BlurbLink name="Mindsea" url="https://mindsea.com" variant="CYAN" />
 		</h1>
